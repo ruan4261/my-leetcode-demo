@@ -73,8 +73,35 @@ public class Solution {
             if (i % 2 == 1) singleCount++;
         }
 
-        if (singleCount > k) return false;
-        else return true;
+        return singleCount<k;
     }
 
+    /**
+     * 通过二进制位记录字符用量
+     * 少迭代，少求余，略快于上面方法
+     *
+     * @param s
+     * @param k
+     * @return
+     */
+    public boolean canConstructBinary(String s, int k) {
+        int len = s.length();
+        if (len == k) return true;
+        else if (len < k) return false;
+
+        char[] array = s.toCharArray();
+        int index;
+        int num = 0;
+        for (int i = 0; i < len; i++) {
+            index = array[i] - 'a';
+            num ^= (1 << index);
+        }
+
+        int count = 0;
+        while (num != 0) {
+            num &= (num - 1);
+            count++;
+        }
+        return count <= k;
+    }
 }
