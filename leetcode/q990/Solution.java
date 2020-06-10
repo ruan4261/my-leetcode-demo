@@ -50,7 +50,6 @@ package com.ruan.alg.leetcode.leetcode.q990;
 public class Solution {
 
     /**
-     *
      * @param equations
      * @return
      */
@@ -83,10 +82,8 @@ public class Solution {
     }
 
     private int find(int[] parent, int index) {
-        while (parent[index] != index) {
-            parent[index] = parent[parent[index]];
-            index = parent[index];
-        }
+        while (parent[index] != index)
+            index = parent[index] = parent[parent[index]];
         return index;
     }
 
