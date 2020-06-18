@@ -2,7 +2,6 @@ package com.ruan.alg.leetcode.leetcode.q943;
 
 import java.util.Arrays;
 import java.util.LinkedList;
-import java.util.List;
 
 /**
  * 943. 最短超级串

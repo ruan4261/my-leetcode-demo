@@ -1,8 +1,5 @@
 package com.ruan.alg.leetcode.leetcode.q1106;
 
-import java.util.Arrays;
-import java.util.List;
-
 /**
  * 1106. 解析布尔表达式
  * <p>

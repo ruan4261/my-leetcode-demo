@@ -1,4 +1,4 @@
-package com.ruan.alg.leetcode.q322;
+package com.ruan.alg.leetcode.leetcode.q322;
 
 import java.util.Arrays;
 

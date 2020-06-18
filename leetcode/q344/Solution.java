@@ -1,4 +1,4 @@
-package com.ruan.alg.leetcode.q344;
+package com.ruan.alg.leetcode.leetcode.q344;
 
 /**
  * 反转字符串

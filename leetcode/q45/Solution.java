@@ -1,4 +1,4 @@
-package com.ruan.alg.leetcode.q45;
+package com.ruan.alg.leetcode.leetcode.q45;
 
 /**
  * 45. 跳跃游戏 II

@@ -1,7 +1,5 @@
 package com.ruan.alg.leetcode.leetcode.iv1706;
 
-import java.util.Arrays;
-
 /**
  * 面试题 17.06. 2出现的次数
  * <p>

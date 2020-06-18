@@ -1,7 +1,5 @@
 package com.ruan.alg.leetcode.leetcode.q52;
 
-import java.util.ArrayList;
-
 /**
  * 52. N皇后 II
  * <p>

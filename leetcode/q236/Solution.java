@@ -1,7 +1,5 @@
 package com.ruan.alg.leetcode.leetcode.q236;
 
-import java.util.*;
-
 /**
  * 236. 二叉树的最近公共祖先
  * <p>
