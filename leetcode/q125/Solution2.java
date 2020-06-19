@@ -7,6 +7,7 @@ public class Solution2 {
 
     /**
      * 震裆的光，照在了大腚上
+     * 
      *
      * @param s
      * @return
