@@ -1,4 +1,4 @@
-package com.ruan.alg.leetcode.leetcode.offer09;
+package demo.leetcode.offer09;
 
 /**
  * 剑指 Offer 09. 用两个栈实现队列

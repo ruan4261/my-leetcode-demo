@@ -1,4 +1,4 @@
-package com.ruan.alg.leetcode.leetcode.q116;
+package demo.leetcode.q116;
 
 /**
  * 限制于完全二叉树

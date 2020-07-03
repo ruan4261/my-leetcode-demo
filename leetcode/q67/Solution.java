@@ -1,4 +1,4 @@
-package com.ruan.alg.leetcode.leetcode.q67;
+package demo.leetcode.q67;
 
 /**
  * 67. 二进制求和

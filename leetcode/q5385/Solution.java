@@ -1,4 +1,4 @@
-package com.ruan.alg.leetcode.leetcode.q5385;
+package demo.leetcode.q5385;
 
 /**
  * leetcode contest question 5385 改变一个整数能得到的最大差值
@@ -52,9 +52,6 @@ package com.ruan.alg.leetcode.leetcode.q5385;
 class Solution {
 
     int maxDiff(int num) {
-        char nine = Integer.toString(9).charAt(0);
-        char zero = Integer.toString(0).charAt(0);
-        char one = Integer.toString(1).charAt(0);
         boolean p = true;// 指示第一个数->默认取大
         String nStr1 = Integer.toString(num);
         String nStr2 = Integer.toString(num);
@@ -62,30 +59,22 @@ class Solution {
         // 操作数1
         for (int i = 0; i < nStr1.length(); ++i) {
             if (i == 0) {// 首位
-                if (nStr1.charAt(i) == one) {
+                if (nStr1.charAt(i) == '1') {
                     p = false;
-                } else if (nStr1.charAt(i) != nine) {
-                    nStr1 = nStr1.replace(nStr1.charAt(i), nine);
+                } else if (nStr1.charAt(i) != '9') {
+                    nStr1 = nStr1.replace(nStr1.charAt(i), '9');
                     break;
                 }
             } else {// 非首位
-                if ((p && nStr1.charAt(i) != nine) || (!p && nStr1.charAt(i) != zero && nStr1.charAt(i) != one)) {
-                    if (p) {
-                        nStr1 = nStr1.replace(nStr1.charAt(i), nine);
-                    } else {
-                        nStr1 = nStr1.replace(nStr1.charAt(i), zero);
-                    }
+                if ((p && nStr1.charAt(i) != '9') || (!p && nStr1.charAt(i) != '0' && nStr1.charAt(i) != '1')) {
+                    nStr1 = nStr1.replace(nStr1.charAt(i), p ? '9' : '0');
                     break;
                 }
             }
         }
 
         // 操作数2
-        if (p) {// 与第一个操作数反向
-            nStr2 = nStr2.replace(nStr2.charAt(0), one);
-        } else {
-            nStr2 = nStr2.replace(nStr2.charAt(0), nine);
-        }
+        nStr2 = nStr2.replace(nStr2.charAt(0), p ? '1' : '9');
 
         return p ? (Integer.parseInt(nStr1) - Integer.parseInt(nStr2)) : (Integer.parseInt(nStr2) - Integer.parseInt(nStr1));
     }

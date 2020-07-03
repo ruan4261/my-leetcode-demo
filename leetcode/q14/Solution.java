@@ -1,4 +1,4 @@
-package com.ruan.alg.leetcode.leetcode.q14;
+package demo.leetcode.q14;
 
 /**
  * 14. 最长公共前缀

@@ -1,4 +1,4 @@
-package com.ruan.alg.leetcode.leetcode.q988;
+package demo.leetcode.q988;
 
 /**
  * 从叶结点开始的最小字符串

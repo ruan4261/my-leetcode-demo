@@ -1,4 +1,4 @@
-package com.ruan.alg.leetcode.leetcode.q983;
+package demo.leetcode.q983;
 
 /**
  * 983. 最低票价

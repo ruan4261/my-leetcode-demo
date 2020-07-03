@@ -1,4 +1,4 @@
-package com.ruan.alg.leetcode.leetcode.q112;
+package demo.leetcode.q112;
 
 /**
  * 112. 路径总和

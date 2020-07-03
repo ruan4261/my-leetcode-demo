@@ -1,4 +1,4 @@
-package com.ruan.alg.leetcode.leetcode.offer09;
+package demo.leetcode.offer09;
 
 /**
  * 给大伙儿再整个活儿

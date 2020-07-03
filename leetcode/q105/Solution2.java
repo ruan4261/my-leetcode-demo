@@ -1,4 +1,4 @@
-package com.ruan.alg.leetcode.leetcode.q105;
+package demo.leetcode.q105;
 
 /**
  *         3

@@ -1,4 +1,4 @@
-package com.ruan.alg.leetcode.leetcode.iv46;
+package demo.leetcode.iv46;
 
 /**
  * 面试题46. 把数字翻译成字符串

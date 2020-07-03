@@ -1,4 +1,4 @@
-package com.ruan.alg.leetcode.leetcode.q990;
+package demo.leetcode.q990;
 
 /**
  * 990. 等式方程的可满足性

@@ -1,4 +1,4 @@
-package com.ruan.alg.leetcode.leetcode.q7;
+package demo.leetcode.q7;
 
 public class Solution2 {
 

@@ -1,4 +1,4 @@
-package com.ruan.alg.leetcode.leetcode.q2;
+package demo.leetcode.q2;
 
 /**
  * 2. 两数相加

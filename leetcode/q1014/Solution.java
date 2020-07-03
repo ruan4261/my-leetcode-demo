@@ -1,4 +1,4 @@
-package com.ruan.alg.leetcode.leetcode.q1014;
+package demo.leetcode.q1014;
 
 /**
  * 1014. 最佳观光组合

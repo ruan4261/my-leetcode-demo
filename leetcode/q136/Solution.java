@@ -1,4 +1,4 @@
-package com.ruan.alg.leetcode.leetcode.q136;
+package demo.leetcode.q136;
 
 /**
  * 136. 只出现一次的数字

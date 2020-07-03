@@ -1,4 +1,4 @@
-package com.ruan.alg.leetcode.leetcode.q146;
+package demo.leetcode.q146;
 
 import java.util.HashMap;
 

@@ -1,4 +1,4 @@
-package com.ruan.alg.leetcode.leetcode.q9;
+package demo.leetcode.q9;
 
 /**
  * 9. 回文数

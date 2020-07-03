@@ -1,4 +1,4 @@
-package com.ruan.alg.leetcode.leetcode.q674;
+package demo.leetcode.q674;
 
 /**
  * 分区间计算该区间最长可选子段

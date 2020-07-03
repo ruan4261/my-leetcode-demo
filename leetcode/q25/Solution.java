@@ -1,4 +1,4 @@
-package com.ruan.alg.leetcode.leetcode.q25;
+package demo.leetcode.q25;
 
 /**
  * Definition for singly-linked list.

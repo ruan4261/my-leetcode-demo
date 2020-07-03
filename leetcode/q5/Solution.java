@@ -1,4 +1,4 @@
-package com.ruan.alg.leetcode.leetcode.q5;
+package demo.leetcode.q5;
 
 /**
  * 5. 最长回文子串

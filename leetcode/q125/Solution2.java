@@ -1,4 +1,4 @@
-package com.ruan.alg.leetcode.leetcode.q125;
+package demo.leetcode.q125;
 
 /**
  * 正经解法

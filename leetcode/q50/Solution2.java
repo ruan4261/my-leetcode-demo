@@ -1,4 +1,4 @@
-package com.ruan.alg.leetcode.leetcode.q50;
+package demo.leetcode.q50;
 
 /**
  * 妙蛙种子吃着妙脆角进了妙妙屋

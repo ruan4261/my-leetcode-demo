@@ -1,4 +1,4 @@
-package com.ruan.alg.leetcode.leetcode.q155;
+package demo.leetcode.q155;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

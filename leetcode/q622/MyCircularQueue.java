@@ -1,4 +1,4 @@
-package com.ruan.alg.leetcode.leetcode.q622;
+package demo.leetcode.q622;
 
 /**
  * 622. 设计循环队列

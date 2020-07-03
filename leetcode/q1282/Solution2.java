@@ -1,4 +1,4 @@
-package com.ruan.alg.leetcode.leetcode.q1282;
+package demo.leetcode.q1282;
 
 import java.util.LinkedList;
 import java.util.List;

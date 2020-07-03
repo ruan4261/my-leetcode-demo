@@ -1,4 +1,4 @@
-package com.ruan.alg.leetcode.leetcode.q84;
+package demo.leetcode.q84;
 
 import java.util.Arrays;
 import java.util.Stack;

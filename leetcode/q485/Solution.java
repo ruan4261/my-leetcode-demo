@@ -1,4 +1,4 @@
-package com.ruan.alg.leetcode.leetcode.q485;
+package demo.leetcode.q485;
 
 /**
  * 485. 最大连续1的个数

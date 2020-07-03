@@ -1,4 +1,4 @@
-package com.ruan.alg.leetcode.leetcode.q101;
+package demo.leetcode.q101;
 
 /**
  * 101. 对称二叉树

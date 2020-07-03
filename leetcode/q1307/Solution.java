@@ -1,4 +1,4 @@
-package com.ruan.alg.leetcode.leetcode.q1307;
+package demo.leetcode.q1307;
 
 import java.util.Arrays;
 import java.util.HashMap;
@@ -6,48 +6,48 @@ import java.util.Map;
 
 /**
  * 1307. 口算难题
- *
+ * <p>
  * 给你一个方程，左边用 words 表示，右边用 result 表示。
- *
+ * <p>
  * 你需要根据以下规则检查方程是否可解：
- *
+ * <p>
  * 每个字符都会被解码成一位数字（0 - 9）。
  * 每对不同的字符必须映射到不同的数字。
  * 每个 words[i] 和 result 都会被解码成一个没有前导零的数字。
  * 左侧数字之和（words）等于右侧数字（result）。 
  * 如果方程可解，返回 True，否则返回 False。
- *
+ * <p>
  *  
- *
+ * <p>
  * 示例 1：
- *
+ * <p>
  * 输入：words = ["SEND","MORE"], result = "MONEY"
  * 输出：true
  * 解释：映射 'S'-> 9, 'E'->5, 'N'->6, 'D'->7, 'M'->1, 'O'->0, 'R'->8, 'Y'->'2'
  * 所以 "SEND" + "MORE" = "MONEY" ,  9567 + 1085 = 10652
  * 示例 2：
- *
+ * <p>
  * 输入：words = ["SIX","SEVEN","SEVEN"], result = "TWENTY"
  * 输出：true
  * 解释：映射 'S'-> 6, 'I'->5, 'X'->0, 'E'->8, 'V'->7, 'N'->2, 'T'->1, 'W'->'3', 'Y'->4
  * 所以 "SIX" + "SEVEN" + "SEVEN" = "TWENTY" ,  650 + 68782 + 68782 = 138214
  * 示例 3：
- *
+ * <p>
  * 输入：words = ["THIS","IS","TOO"], result = "FUNNY"
  * 输出：true
  * 示例 4：
- *
+ * <p>
  * 输入：words = ["LEET","CODE"], result = "POINT"
  * 输出：false
  *  
- *
+ * <p>
  * 提示：
- *
+ * <p>
  * 2 <= words.length <= 5
  * 1 <= words[i].length, results.length <= 7
  * words[i], result 只含有大写英文字母
  * 表达式中使用的不同字符数最大为 10
- *
+ * <p>
  * 来源：力扣（LeetCode）
  * 链接：https://leetcode-cn.com/problems/verbal-arithmetic-puzzle
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
@@ -56,7 +56,7 @@ import java.util.Map;
  */
 public class Solution {
 
-    private Map<Character, Integer> weights = new HashMap<>(10);// 字符映射到权值
+    private Map<Character, Integer> weights = new HashMap<>(10, 1);// 字符映射到权值
 
     private char[] minusWeights = new char[7];// 负权值排序
 
@@ -66,12 +66,11 @@ public class Solution {
 
     private boolean[] zeroUnable = new boolean[26];// 为true代表不可为0
 
-    private Map<Character, Integer> minNumber = new HashMap<>(10);// 最小可能数
+    private Map<Character, Integer> minNumber = new HashMap<>(10, 1);// 最小可能数
 
-    private Map<Character, Integer> maxNumber = new HashMap<>(10);// 最大可能数
+    private Map<Character, Integer> maxNumber = new HashMap<>(10, 1);// 最大可能数
 
     /**
-     *
      * @param words
      * @param result
      * @return

@@ -1,4 +1,4 @@
-package com.ruan.alg.leetcode.leetcode.q7;
+package demo.leetcode.q7;
 
 /**
  * 7. 整数反转

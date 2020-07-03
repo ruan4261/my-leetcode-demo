@@ -1,4 +1,4 @@
-package com.ruan.alg.leetcode.leetcode.q98;
+package demo.leetcode.q98;
 
 /**
  * 98. 验证二叉搜索树

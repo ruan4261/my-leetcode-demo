@@ -1,4 +1,4 @@
-package com.ruan.alg.leetcode.leetcode.q124;
+package demo.leetcode.q124;
 
 /**
  * 124. 二叉树中的最大路径和

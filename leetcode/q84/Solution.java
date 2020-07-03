@@ -1,4 +1,4 @@
-package com.ruan.alg.leetcode.leetcode.q84;
+package demo.leetcode.q84;
 
 /**
  * 84. 柱状图中最大的矩形

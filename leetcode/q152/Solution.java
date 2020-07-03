@@ -1,4 +1,4 @@
-package com.ruan.alg.leetcode.leetcode.q152;
+package demo.leetcode.q152;
 
 /**
  * 152. 乘积最大子数组

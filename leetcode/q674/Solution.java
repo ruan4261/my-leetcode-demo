@@ -1,4 +1,4 @@
-package com.ruan.alg.leetcode.leetcode.q674;
+package demo.leetcode.q674;
 
 /**
  * 674. 最长连续递增序列

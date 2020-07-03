@@ -1,4 +1,4 @@
-package com.ruan.alg.leetcode.leetcode.iv0805;
+package demo.leetcode.iv0805;
 
 /**
  * 面试题 08.05. 递归乘法

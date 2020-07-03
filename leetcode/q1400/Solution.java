@@ -1,4 +1,4 @@
-package com.ruan.alg.leetcode.leetcode.q1400;
+package demo.leetcode.q1400;
 
 /**
  * 1400. 构造 K 个回文字符串

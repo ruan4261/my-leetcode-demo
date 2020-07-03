@@ -1,4 +1,4 @@
-package com.ruan.alg.leetcode.leetcode.q1106;
+package demo.leetcode.q1106;
 
 /**
  * 1106. 解析布尔表达式

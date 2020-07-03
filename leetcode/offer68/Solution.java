@@ -1,4 +1,4 @@
-package com.ruan.alg.leetcode.leetcode.offer68;
+package demo.leetcode.offer68;
 
 /**
  * 剑指 Offer 68 - II. 二叉树的最近公共祖先

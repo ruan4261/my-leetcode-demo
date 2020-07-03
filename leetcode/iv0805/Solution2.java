@@ -1,4 +1,4 @@
-package com.ruan.alg.leetcode.leetcode.iv0805;
+package demo.leetcode.iv0805;
 
 /**
  * @author ruan4261

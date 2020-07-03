@@ -1,4 +1,4 @@
-package com.ruan.alg.leetcode.leetcode.q69;
+package demo.leetcode.q69;
 
 /**
  * 69. x 的平方根

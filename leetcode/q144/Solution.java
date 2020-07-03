@@ -1,4 +1,4 @@
-package com.ruan.alg.leetcode.leetcode.q144;
+package demo.leetcode.q144;
 
 import java.util.ArrayList;
 import java.util.List;

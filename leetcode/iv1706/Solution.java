@@ -1,4 +1,4 @@
-package com.ruan.alg.leetcode.leetcode.iv1706;
+package demo.leetcode.iv1706;
 
 /**
  * 面试题 17.06. 2出现的次数

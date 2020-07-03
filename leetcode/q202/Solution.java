@@ -1,4 +1,4 @@
-package com.ruan.alg.leetcode.leetcode.q202;
+package demo.leetcode.q202;
 
 /**
  * 快乐数

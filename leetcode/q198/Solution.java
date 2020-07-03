@@ -1,4 +1,4 @@
-package com.ruan.alg.leetcode.leetcode.q198;
+package demo.leetcode.q198;
 
 /**
  * 198. 打家劫舍

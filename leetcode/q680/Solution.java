@@ -1,4 +1,4 @@
-package com.ruan.alg.leetcode.leetcode.q680;
+package demo.leetcode.q680;
 
 /**
  * 680. 验证回文字符串 Ⅱ

@@ -1,4 +1,4 @@
-package com.ruan.alg.leetcode.leetcode.q5;
+package demo.leetcode.q5;
 
 /**
  * 看了半天才看懂

@@ -1,4 +1,4 @@
-package com.ruan.alg.leetcode.leetcode.q102;
+package demo.leetcode.q102;
 
 import java.util.*;
 import java.util.stream.Collectors;

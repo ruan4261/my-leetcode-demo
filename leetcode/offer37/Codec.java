@@ -1,4 +1,4 @@
-package com.ruan.alg.leetcode.leetcode.offer37;
+package demo.leetcode.offer37;
 
 /**
  * 剑指 Offer 37. 序列化二叉树
@@ -24,7 +24,7 @@ package com.ruan.alg.leetcode.leetcode.offer37;
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  *
  * @author ruan4261
- * @see com.ruan.alg.leetcode.leetcode.q297
+ * @see demo.leetcode.q297
  */
 public class Codec {
 

@@ -1,4 +1,4 @@
-package com.ruan.alg.leetcode.leetcode.q955;
+package demo.leetcode.q955;
 
 import java.util.Arrays;
 

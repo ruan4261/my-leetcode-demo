@@ -1,4 +1,4 @@
-package com.ruan.alg.leetcode.leetcode.q6;
+package demo.leetcode.q6;
 
 /**
  * 6. Z 字形变换

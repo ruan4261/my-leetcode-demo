@@ -1,4 +1,4 @@
-package com.ruan.alg.leetcode.leetcode.q52;
+package demo.leetcode.q52;
 
 /**
  * 52. N皇后 II

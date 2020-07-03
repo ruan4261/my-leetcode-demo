@@ -1,4 +1,4 @@
-package com.ruan.alg.leetcode.leetcode.q40;
+package demo.leetcode.q40;
 
 import java.util.*;
 

@@ -1,4 +1,4 @@
-package com.ruan.alg.leetcode.leetcode.q4;
+package demo.leetcode.q4;
 
 /**
  * 4. 寻找两个正序数组的中位数

@@ -1,4 +1,4 @@
-package com.ruan.alg.leetcode.leetcode.q104;
+package demo.leetcode.q104;
 
 /**
  * 104. 二叉树的最大深度

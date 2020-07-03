@@ -1,4 +1,4 @@
-package com.ruan.alg.leetcode.leetcode.q106;
+package demo.leetcode.q106;
 
 public class Solution2 {
 

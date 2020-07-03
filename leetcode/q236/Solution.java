@@ -1,4 +1,4 @@
-package com.ruan.alg.leetcode.leetcode.q236;
+package demo.leetcode.q236;
 
 /**
  * 236. 二叉树的最近公共祖先

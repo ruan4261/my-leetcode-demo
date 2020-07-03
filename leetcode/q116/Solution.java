@@ -1,4 +1,4 @@
-package com.ruan.alg.leetcode.leetcode.q116;
+package demo.leetcode.q116;
 
 import java.io.UnsupportedEncodingException;
 import java.nio.charset.StandardCharsets;

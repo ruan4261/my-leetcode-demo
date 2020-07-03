@@ -1,4 +1,4 @@
-package com.ruan.alg.leetcode.leetcode.q50;
+package demo.leetcode.q50;
 
 /**
  * 50. Pow(x, n)

@@ -1,4 +1,4 @@
-package com.ruan.alg.leetcode.leetcode.q572;
+package demo.leetcode.q572;
 
 /**
  * 572. 另一个树的子树

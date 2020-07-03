@@ -1,4 +1,4 @@
-package com.ruan.alg.leetcode.leetcode.iv1618;
+package demo.leetcode.iv1618;
 
 /**
  * 面试题 16.18. 模式匹配

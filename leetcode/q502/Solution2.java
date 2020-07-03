@@ -1,4 +1,4 @@
-package com.ruan.alg.leetcode.leetcode.q502;
+package demo.leetcode.q502;
 
 import java.util.PriorityQueue;
 

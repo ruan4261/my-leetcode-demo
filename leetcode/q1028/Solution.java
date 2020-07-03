@@ -1,4 +1,4 @@
-package com.ruan.alg.leetcode.leetcode.q1028;
+package demo.leetcode.q1028;
 
 /**
  * 1028. 从先序遍历还原二叉树

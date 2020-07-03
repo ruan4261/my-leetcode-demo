@@ -1,4 +1,4 @@
-package com.ruan.alg.leetcode.leetcode.q394;
+package demo.leetcode.q394;
 
 /**
  * 394. 字符串解码

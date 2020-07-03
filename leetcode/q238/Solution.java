@@ -1,4 +1,4 @@
-package com.ruan.alg.leetcode.leetcode.q238;
+package demo.leetcode.q238;
 
 /**
  * 238. 除自身以外数组的乘积

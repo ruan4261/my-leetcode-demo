@@ -1,4 +1,4 @@
-package com.ruan.alg.leetcode.leetcode.q560;
+package demo.leetcode.q560;
 
 /**
  * 560. 和为K的子数组

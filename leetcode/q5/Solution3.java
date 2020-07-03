@@ -1,4 +1,4 @@
-package com.ruan.alg.leetcode.leetcode.q5;
+package demo.leetcode.q5;
 
 /**
  * 学习一下最速传说
