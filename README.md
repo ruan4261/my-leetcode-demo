@@ -1,4 +1,4 @@
-# MY LEETCODE DEMO
+# My Leetcode demo
 > 用于记录我在leetcode上刷过的题目\
 > 部分题目没有写java doc，请自行去leetcode官网查看题目
 ## 说明
