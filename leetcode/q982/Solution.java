@@ -1,6 +1,6 @@
 package demo.leetcode.q982;
 
-public class Solution2 {
+public class Solution {
 
     public int countTriplets(int[] A) {
         int ans = 0;
