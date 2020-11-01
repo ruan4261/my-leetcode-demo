@@ -2,6 +2,7 @@ package demo.leetcode.q5542;
 
 /**
  * 这个超时了，可惜，逻辑是回溯没问题，还需要考虑一下剪枝优化
+ * 可以dp，不用回溯，我是sb
  */
 public class Solution {
 
