@@ -1,4 +1,4 @@
-package demo.leetcode.q5385;
+package demo.leetcode.q1432;
 
 /**
  * leetcode contest question 5385 改变一个整数能得到的最大差值
