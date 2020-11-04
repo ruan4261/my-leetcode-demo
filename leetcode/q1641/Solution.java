@@ -3,7 +3,6 @@ package demo.leetcode.q1641;
 public class Solution {
 
     public int countVowelStrings(int n) {
-        if (n == 0) return 0;
         int limit = n - 1;
 
         int a = 1, b = 1, c = 1, d = 1;
