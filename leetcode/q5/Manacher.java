@@ -37,7 +37,6 @@ public class Manacher {
         System.out.println((System.currentTimeMillis() - begin) + "ms");
     }
 
-    // 马拉车算法
     public String longestPalindrome(String s) {
         String T = preProcess(s);
         int n = T.length();

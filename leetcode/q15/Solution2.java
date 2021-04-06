@@ -11,10 +11,10 @@ public class Solution2 {
 
     public List<List<Integer>> threeSum(int[] nums) {
         List<List<Integer>> ans = new ArrayList<>();
-        int min = Integer.MAX_VALUE;
-        int max = Integer.MIN_VALUE;
+        int min = Integer.MAX_VALUE;// 数组中最小值
+        int max = Integer.MIN_VALUE;// 数组中最大值
 
-        // 正负及0计数
+        // count[0]为正数个数 count[1]为负数个数
         int[] count = new int[2];
         for (int n : nums) {
             min = Math.min(min, n);
@@ -24,9 +24,11 @@ public class Solution2 {
                 count[n >>> 31]++;
             }
         }
-        // posCount为正数量, negCount为负数量
-        int posCount = count[0], negCount = count[1], zeroCount = nums.length - negCount - posCount;
-        // 自成一派
+
+        int posCount = count[0];
+        int negCount = count[1];
+        int zeroCount = nums.length - negCount - posCount;
+        // 0自成一派
         if (zeroCount >= 3) ans.add(Arrays.asList(0, 0, 0));
         // 如果没有负数或没有正数
         if (negCount == 0 || posCount == 0) return ans;

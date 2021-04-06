@@ -33,8 +33,10 @@ public class Solution {
     public int threeSumClosest(int[] nums, int target) {
         int len = nums.length;
         if (len == 3) return nums[0] + nums[1] + nums[2];
+
         Arrays.sort(nums);
-        if (target <= nums[0] + nums[1] + nums[2]) return nums[0] + nums[1] + nums[2];
+        if (target <= nums[0] + nums[1] + nums[2])
+            return nums[0] + nums[1] + nums[2];
         else if (target >= nums[len - 1] + nums[len - 2] + nums[len - 3])
             return nums[len - 1] + nums[len - 2] + nums[len - 3];
 

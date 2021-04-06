@@ -1,7 +1,7 @@
 # My Leetcode demo
 用于记录我在leetcode上刷过的题目  
 部分题目没有写java doc，需要查看题目详情请自行去leetcode官网搜索  
-部分题目使用Java8，其余使用Java11
+默认Java8, 部分题可能使用了更高版本
 
 ## 命名说明
 * q     代表一般问题
