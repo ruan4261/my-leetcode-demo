@@ -33,20 +33,17 @@ package demo.leetcode.q4;
 public class Solution {
 
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
-        int len1, len2;
-        if (nums1 == null || (len1 = nums1.length) == 0) {
-            len2 = nums2.length;
-            if ((len2 & 1) == 1) return nums2[len2 >> 1];
-            else return (nums2[len2 >> 1] + nums2[(len2 >> 1) - 1]) / 2.0;
-        } else if (nums2 == null || (len2 = nums2.length) == 0) {
-            if ((len1 & 1) == 1) return nums1[len1 >> 1];
-            else return (nums1[len1 >> 1] + nums1[(len1 >> 1) - 1]) / 2.0;
-        }
+        int len1 = nums1.length, len2 = nums2.length;
         int len = len1 + len2;
         boolean even = (len & 1) == 0;
-        int idx1 = 0;
-        int idx2 = 0;
+        if (len1 == 0 || len2 == 0) {
+            int[] content = len1 == 0 ? nums2 : nums1;
+            return even ?
+                    (content[len >> 1] + content[(len >> 1) - 1]) / 2.0 : content[len >> 1];
+        }
+
         int ans = 0;
+        int idx1 = 0, idx2 = 0;
         for (int i = 0, l = len >> 1; i <= l; i++) {
             int curr;
             if (idx1 >= len1) {
@@ -56,7 +53,9 @@ public class Solution {
             } else {
                 curr = nums1[idx1] <= nums2[idx2] ? nums1[idx1++] : nums2[idx2++];
             }
-            if (i == l || (even && i == l - 1)) ans += curr;
+
+            if (i == l || (even && i == l - 1))
+                ans += curr;
         }
         return even ? ans / 2.0 : ans;
     }
